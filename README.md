@@ -1,13 +1,14 @@
 # ComandoCommit
----
 #1 - Caso não tenha, crie um diretório script
 ```bash
 New-Item -ItemType Directory -Path C:\scripts
 ```
+---
 #2 - Adicione o Caminho ao PATH
 ```
 $env:Path += ";C:\scripts"
 ```
+---
 #3 - Adicione um atalho no VSCode
   1 - Abra o Command Palette (Ctrl+Shift+P).
 
@@ -33,4 +34,4 @@ $env:Path += ";C:\scripts"
     ]
 }
 ```
-#5 - Agora, você pode executar a tarefa diretamente do Command Palette (Ctrl+Shift+P) digitando "Tasks: Run Build Task" ou usando o atalho Ctrl+Shift+B.
+#5 - Agora, você pode executar a tarefa diretamente do Command Palette ***(Ctrl+Shift+P)*** digitando ***"Tasks: Run Build Task"*** ou usando o atalho ***Ctrl+Shift+B***.
