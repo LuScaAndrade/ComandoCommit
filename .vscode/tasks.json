@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Commit",
+      "type": "shell",
+      "command": "powershell",
+      "args": ["-File", "C:\\scripts\\Commit.ps1"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
