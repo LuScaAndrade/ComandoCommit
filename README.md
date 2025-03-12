@@ -1,4 +1,4 @@
-# ComandoCommit
+# **ComandoCommit**
 ## 1 - Caso não tenha, crie um diretório **script**
 ```bash
 New-Item -ItemType Directory -Path C:\scripts
